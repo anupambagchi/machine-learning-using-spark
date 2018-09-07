@@ -1,5 +1,5 @@
-# machine-learning-using-spark
-Machine Learning example using SPARK
+# machine-learning-using-spark-java
+Machine Learning example using SPARK written in Java
 
 To see the full description of the problem and a complete solution see:
 
