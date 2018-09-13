@@ -16,5 +16,5 @@ source $SCRIPTPATH/setclasspath.sh
 UBERJAR=${SCRIPTPATH}/../target/spark.application-1.0-jar-with-dependencies.jar
 
 echo Running Email Campaign Learner using SPARK ...
-echo spark-submit --master local[*] --class $CLASSNAME $UBERJAR
-spark-submit --master local[*] --class $CLASSNAME $UBERJAR
+echo spark-submit --master local[*] --class $CLASSNAME $UBERJAR $*
+spark-submit --master local[*] --class $CLASSNAME $UBERJAR $*
